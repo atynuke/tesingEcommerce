@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#Container {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    /* position: fixed; */
+}
+
+.NavContainer {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100vw;
+    height: 10vh;
+    box-sizing: border-box;
+
+
+}
+
+.serachDiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(184, 199, 199);
+    padding: 1px 5px;
+}
+
+#search {
+    width: 400px;
+    height: 42px;
+    padding: 10px;
+    background-color: rgb(244, 248, 252);
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: none;
+    border: 0.5px solid black;
+
+}
+
+#img {
+    min-height: 10px;
+    width: 30px;
+
+}
+
+.NavContainer a {
+    font-size: 16px;
+    color: #5c1033;
+    text-decoration: none;
+    padding: 0.5rem;
+    display: block;
+
+}
+
+.NavContainer a:hover {
+    color: rgb(6, 99, 85);
+    border-radius: 5px;
+}
+
+.NavContain {
+    display: flex;
+}
+
+.NavContainer1 {
+    display: flex;
+    justify-content: space-around;
+    /* margin-left: 200px; */
+}
+
+.NavContainer1 button {
+    width: 100px;
+    height: 40px;
+    border-radius: 15px;
+    background-color: white;
+    border: 1px solid rgb(61, 58, 13);
+    cursor: pointer;
+    color: aliceblue;
+    outline: navy;
+}
+
+#cartImg {
+    width: 30px;
+    height: 30px;
+    position: fixed;
+    margin-left: 10px;
+    margin-top: -0.5px;
+
+}

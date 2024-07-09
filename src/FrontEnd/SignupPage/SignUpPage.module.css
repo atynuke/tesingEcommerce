@@ -1,0 +1,87 @@
+#SignUpPageDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-sizing: border-box;
+    /* margin-top: 100px; */
+    background-color:rgb(228, 215, 225);
+}
+
+#formLabel {
+    font-size: 30px;
+    font-weight: 600;
+    color: #aa2f68;
+    margin-top: 80px;
+
+}
+
+#RegForm {
+    height: 500px;
+    width: 100%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.NavContainer {
+    font-size: 15px;
+    font-weight: 600;
+    /* color: #5e1034; */
+    color: #aa2f68;
+    margin: auto;
+    text-decoration: none;
+
+}
+
+
+.NavContainer span {
+    color: rgb(253, 55, 6);
+}
+#InputDiv {
+    display: grid;
+    box-sizing: border-box;
+    flex-direction: column;
+
+}
+
+#Headertext {
+    color: #aa2f68;
+    font-size: 20px;
+}
+
+.SignInput {
+    border: none;
+    width: 100%;
+    height: 56px;
+    padding-left: 10px;
+
+}
+
+#button {
+    width: 100%;
+    height: 56px;
+    border-radius: 6.5px;
+    background:    #aa2f68;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 20px;
+    box-sizing: border-box;
+    /* margin-top: 20px; */
+}
+
+
+#formPassword {
+    font-size: 15px;
+    font-weight: 400;
+    color: #aa2f68;
+}
+/* 
+#account {
+    font-size: 10px;
+    font-weight: 400;
+    color: #462faa;
+} */

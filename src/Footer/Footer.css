@@ -1,0 +1,10 @@
+.footer {
+width: 100%;
+height: 10vh;
+grid-area: footer;
+background-color: rgb(60, 56, 63);
+color: wheat;
+display: flex;
+align-items: center;
+justify-content: center;
+}

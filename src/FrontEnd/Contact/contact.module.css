@@ -1,0 +1,94 @@
+.contactDiv {
+    background-color: rgb(170, 127, 127);
+    min-height: 200px;
+    width: 100%;
+    box-sizing: border-box;
+    /* margin-top: 10px; */
+}
+
+.conat {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#sale {
+    font-size: 20px;
+    color: wheat;
+    /* color: #5c1033; */
+
+}
+
+#off {
+    font-size: 55px;
+    color: wheat;
+    /* color: #5c1033; */
+
+}
+
+.conat button {
+    background-color: rgb(230, 224, 213);
+    height: 50px;
+    width: 150px;
+    box-sizing: border-box;
+    border-radius: none;
+    border: none;
+    font-size: 15px;
+    font-weight: 600;
+    color: #5c1033;
+    cursor: pointer;
+
+}
+.ContactForm {
+    background-color: rgb(238, 209, 186);
+    width: 100%;
+    min-height: 100vh;
+    box-sizing: border-box;
+    margin-top: 1px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.ContactForm #Us {
+    margin-top: 40px;
+    font-size: 30px;
+    font-weight: 800;
+    color: #5c1033;
+    
+}
+.ContactForm p {
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+    color: #5c1033;
+}
+
+.ContactForm .label {
+    font-size: 15px;
+    font-weight: 600;
+    color: #5c1033;
+}
+
+.ContactForm .input {
+    width: 400px;
+    height: 40px;
+    padding: 10px;
+    border: none;
+
+}
+
+.ContactForm button {
+    background-color: rgb(247, 246, 246);
+    height: 50px;
+    width: 150px;
+    box-sizing: border-box;
+    border-radius: none;
+    border: none;
+    font-size: 15px;
+    font-weight: 600;
+   color: #5c1033;
+   cursor: pointer;
+
+}

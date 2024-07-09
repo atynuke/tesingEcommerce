@@ -1,0 +1,98 @@
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-sizing: border-box;
+    background-color:rgb(228, 215, 225);
+
+}
+
+#LogInForm {
+    height: 500px;
+    width: 100%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+#Headertext {
+    color: #aa2f68;
+    font-size: 20px;
+    margin-top: -50px;
+}
+
+#inputDiv {
+    display: grid;
+    box-sizing: border-box;
+    margin-top: -100px;
+}
+
+.Input {
+    border: none;
+    width: 100%;
+    padding-left: 20px;
+    height: 56px;
+
+}
+
+#formHeading {
+    font-size: 30px;
+    font-weight: 600;
+    color: #aa2f68;
+    margin-top: 100px;
+}
+
+#formHeader {
+    font-size: 15px;
+    font-weight: 400;
+    color: #aa2f68;
+}
+
+#formlabel {
+    font-size: 15px;
+    font-weight: 400;
+    color: #462faa;
+}
+
+#bttn {
+
+    width: 300px;
+    height: 56px;
+    border-radius: 6.5px;
+    background:    #aa2f68;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#SignAccount {
+    display: grid;
+    margin-top: -250px;
+}
+
+#Support {
+    font-size: 15px;
+    font-weight: 600;
+    color: #aa2f68;
+    margin: auto;
+    text-decoration: none;
+}
+
+.NavContainer {
+    font-size: 15px;
+    font-weight: 600;
+    color: #aa2f68;
+    margin: auto;
+    text-decoration: none;
+
+}
+.NavContainer span{
+    color: rgb(253, 55, 6);
+
+}
